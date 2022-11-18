@@ -5,7 +5,7 @@ import Bottone3 from "./Comp3/Bottone3";
 
 function Film3() {
   return (
-    <div>
+    <div  className="cards">
       <Titolo3></Titolo3>
       <Immagine3></Immagine3>
       <Descrizione3></Descrizione3>

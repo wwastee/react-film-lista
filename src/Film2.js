@@ -6,7 +6,7 @@ import Bottone2 from "./Comp2/Bottone2"
 
 function Film2(){
     return(
-        <div>
+        <div  className="cards">
             <Titolo2></Titolo2>
             <Immagine2></Immagine2>
             <Descrizione2></Descrizione2>

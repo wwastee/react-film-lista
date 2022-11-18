@@ -6,7 +6,7 @@ import Bottone4 from "./Comp4/Bottone4";
 
 function Film4() {
   return (
-    <div>
+    <div  className="cards">
       <Titolo4></Titolo4>
       <Immagine4></Immagine4>
       <Descrizione4></Descrizione4>

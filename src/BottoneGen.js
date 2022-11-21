@@ -1,5 +1,9 @@
-function BottoneGen(){
+function BottoneGen(props){
     return(
-        sus
+        <button className="bottonio">{props.boton}</button>
     )
 }
+
+//clicca qui per picchiare un barbone
+
+export default BottoneGen

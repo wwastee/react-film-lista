@@ -7,8 +7,9 @@ import { useState } from "react";
 function Film1() {
   
     const [contatore, PicchiamentoBarbone] = useState(0);
-    function giannino(){
-        PicchiamentoBarbone(contatore+1)
+
+    function picchiare(){
+      PicchiamentoBarbone(contatore + 1)
     }
 
 
@@ -18,9 +19,9 @@ function Film1() {
       <Titolo1></Titolo1>
       <Immagine1></Immagine1>
       <Descrizione1></Descrizione1>
-      <Bottone1 {giannino}></Bottone1>
-      {/*<button onClick={() => PicchiamentoBarbone(contatore + 1)}></button>*/}
-      <p> you clicked {contatore} volte</p>
+      <Bottone1 picchiare={picchiare}></Bottone1>
+      <p> hai picchiato il barbone {contatore} volte</p>
+      {contatore<20 ? null : <p>TI PREGO BASTA LO STAI UCCIDENDO</p>}
     </div>
   );
 }
